@@ -1,0 +1,35 @@
+<saml:Assertion ID="pwbsxuI0eOaeBM2IJ-s4BPw2zTG" IssueInstant="2022-02-22T14:59:59.793Z" Version="2.0"
+                xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
+    <saml:Issuer>fairwinds.prod-intuit.ifs.prod</saml:Issuer>
+    <saml:Subject/>
+    <saml:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">36490188</saml:NameID>
+    <saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer"/>
+    <saml:AuthnStatement AuthnInstant="2022-02-22T14:59:59.793Z" SessionIndex="pwbsxuI0eOaeBM2IJ-s4BPw2zTG">
+        <saml:AuthnContext>
+            <saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified</saml:AuthnContextClassRef>
+        </saml:AuthnContext>
+    </saml:AuthnStatement>
+    <saml:AttributeStatement>
+        <saml:Attribute Name="USER_ACCOUNTS" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+            <saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <![CDATA[<ns7:Accounts xmlns="http://schema.intuit.com/domain/banking/financialInfo/v2" xmlns:ns2="http://schema.intuit.com/domain/banking/financialInstitution/v2" xmlns:ns6="http://schema.intuit.com/domain/banking/notification/v2" xmlns:ns7="http://schema.intuit.com/domain/banking/account/v2"><ns7:account xsi:type="ns7:SAVINGS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><ns7:id>IlujIIitfmdgpjop_8N_OaOXWgekh-k43VMyyHFAA4c</ns7:id><ns7:nickName>Membership Share</ns7:nickName><ns7:accountNumber><ns7:hostValue>75016305</ns7:hostValue><ns7:displayValue>75016305</ns7:displayValue><ns7:pfmValue>75016305</ns7:pfmValue><ns7:rdcAccountValue>75016305</ns7:rdcAccountValue><ns7:rawHostValue>75016305</ns7:rawHostValue></ns7:accountNumber></ns7:account><ns7:account xsi:type="ns7:CHECKING" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><ns7:id>5ip26bAoDWMd4Y8xZ0El1tX0VdrkIYFrI1lLarUh4Tw</ns7:id><ns7:nickName>Freedom Preferred Checking</ns7:nickName><ns7:accountNumber><ns7:hostValue>75016313</ns7:hostValue><ns7:displayValue>75016313</ns7:displayValue><ns7:billPayValue>75016313</ns7:billPayValue><ns7:pfmValue>75016313</ns7:pfmValue><ns7:rdcAccountValue>75016313</ns7:rdcAccountValue><ns7:rawHostValue>75016313</ns7:rawHostValue></ns7:accountNumber></ns7:account></ns7:Accounts>]]></saml:AttributeValue>
+        </saml:Attribute>
+        <saml:Attribute Name="USER_ID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+            <saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">36490188
+            </saml:AttributeValue>
+        </saml:Attribute>
+        <saml:Attribute Name="FI_ID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+            <saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">DI1425
+            </saml:AttributeValue>
+        </saml:Attribute>
+        <saml:Attribute Name="KEEP_ALIVE_URL" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+            <saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                https://www.fairwindsonline.com/site-olb/live/v1/launch?code=ping
+            </saml:AttributeValue>
+        </saml:Attribute>
+    </saml:AttributeStatement>
+</saml:Assertion>

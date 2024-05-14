@@ -1,0 +1,55 @@
+<saml:Assertion ID="pwbsxuI0eOaeBM2IJ-s4BPw2zTG" IssueInstant="2022-02-22T14:59:59.793Z" Version="2.0"
+                xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
+    <saml:Issuer>fairwinds.prod-intuit.ifs.prod</saml:Issuer>
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <ds:Reference URI="#pwbsxuI0eOaeBM2IJ-s4BPw2zTG">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>J/uLx3JnFAOSd49cGTx/CvRIcVfxdYROBsKrfPyJ3Go=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>C1jhIOI/L64uGh30CIDk90Khd8SXCKR5lC4eT62r+IUTkSMAf8DbknzPjiW64EKqg+bRSkkc3ikc
+            afzi/6pegkGGk9JmXfzIguxDos8UOunittkEqS/VC+g3PgXYJz2rY1NbdquT2eAZ1fFfCPVRBIZb
+            /USuhWKr9RsXr72zByLGoWQ/H26U7LzQG/z5vLx0Q/P5P2MpzPmreqgXsQlHxxZwYR+R4/F5b8Yi
+            RKOYsHZE0GF7jzG7R9pL9lIhG9HInD0fM3Ao2H6SU9OfmpobeMjCPuZzd7mudCVSEUPXslsInLZJ
+            +cpCveylNcQNE1J0if6fPxTuDCeomjpNn4XrYQ==
+        </ds:SignatureValue>
+    </ds:Signature>
+    <saml:Subject>
+    <saml:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">36490188</saml:NameID>
+    <saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+    <saml:AuthnStatement AuthnInstant="2022-02-22T14:59:59.793Z" SessionIndex="pwbsxuI0eOaeBM2IJ-s4BPw2zTG">
+        <saml:AuthnContext>
+            <saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified</saml:AuthnContextClassRef>
+        </saml:AuthnContext>
+    </saml:AuthnStatement>
+    <saml:AttributeStatement>
+        <saml:Attribute Name="USER_ACCOUNTS" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+            <saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <![CDATA[<ns7:Accounts xmlns="http://schema.intuit.com/domain/banking/financialInfo/v2" xmlns:ns2="http://schema.intuit.com/domain/banking/financialInstitution/v2" xmlns:ns6="http://schema.intuit.com/domain/banking/notification/v2" xmlns:ns7="http://schema.intuit.com/domain/banking/account/v2"><ns7:account xsi:type="ns7:SAVINGS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><ns7:id>IlujIIitfmdgpjop_8N_OaOXWgekh-k43VMyyHFAA4c</ns7:id><ns7:nickName>Membership Share</ns7:nickName><ns7:accountNumber><ns7:hostValue>75016305</ns7:hostValue><ns7:displayValue>75016305</ns7:displayValue><ns7:pfmValue>75016305</ns7:pfmValue><ns7:rdcAccountValue>75016305</ns7:rdcAccountValue><ns7:rawHostValue>75016305</ns7:rawHostValue></ns7:accountNumber></ns7:account><ns7:account xsi:type="ns7:CHECKING" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><ns7:id>5ip26bAoDWMd4Y8xZ0El1tX0VdrkIYFrI1lLarUh4Tw</ns7:id><ns7:nickName>Freedom Preferred Checking</ns7:nickName><ns7:accountNumber><ns7:hostValue>75016313</ns7:hostValue><ns7:displayValue>75016313</ns7:displayValue><ns7:billPayValue>75016313</ns7:billPayValue><ns7:pfmValue>75016313</ns7:pfmValue><ns7:rdcAccountValue>75016313</ns7:rdcAccountValue><ns7:rawHostValue>75016313</ns7:rawHostValue></ns7:accountNumber></ns7:account></ns7:Accounts>]]></saml:AttributeValue>
+        </saml:Attribute>
+        <saml:Attribute Name="USER_ID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+            <saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">36490188
+            </saml:AttributeValue>
+        </saml:Attribute>
+        <saml:Attribute Name="FI_ID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+            <saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">DI1425
+            </saml:AttributeValue>
+        </saml:Attribute>
+        <saml:Attribute Name="KEEP_ALIVE_URL" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+            <saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                https://www.fairwindsonline.com/site-olb/live/v1/launch?code=ping
+            </saml:AttributeValue>
+        </saml:Attribute>
+    </saml:AttributeStatement>
+</saml:Assertion>
